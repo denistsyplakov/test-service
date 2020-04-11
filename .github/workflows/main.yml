@@ -28,4 +28,4 @@ jobs:
         gradle test
         gradle jibDockerBuild
         docker login --username=${{secrets.DOCKER_NAME}} --password=${{ secrets.DOCKER_PASSWORD }}
-        docker push ${{secrets.DOCKER_NAME}}/test-service:latest
+        docker push habbahen/test-service:latest
