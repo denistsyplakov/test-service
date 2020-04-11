@@ -32,7 +32,7 @@ jib {
 		image = 'openjdk:alpine'
 	}
 	to {
-		image = 'test-service:latest'
+		image = 'habbahen/test-service:latest'
 	}
 	container {
 		jvmFlags = ['-Xms8m']
